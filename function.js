@@ -1,7 +1,9 @@
 function getFirstElement (arr){
-    array.forEach(element => {
-        console.log(element);
-    });
+    return arr[0];
+    }
+    else{
+        return "Error";
+    }
     }
     const numbers = [1, 2, 3];
     const words = ["apple", "banana", "cherry"];
